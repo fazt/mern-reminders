@@ -9,6 +9,7 @@ const TaskSchema = new mongoose.Schema(
       default: false,
     },
     tags: [{ type: String, trim: true }],
+    date: { type: Date },
   },
   {
     timestamps: true,
